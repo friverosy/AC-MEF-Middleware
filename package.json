@@ -1,0 +1,16 @@
+{
+  "name": "multirest",
+  "version": "1.0.0",
+  "description": "RESTFul API Multiexport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cristtopher Quintana T.",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "oracledb": "^1.7.1"
+  }
+}
