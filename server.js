@@ -51,14 +51,14 @@ app.get('/employee/:RUT', function (req, res) {
                     if (err) {
                         console.error(err.message);
                     } else {
-                        console.log("GET /employee/" + req.params.RUT + " : Connection released");
+                        console.log(new Date() + " GET /employee/" + req.params.RUT + " : Connection released");
                     }
                 });
         });
     });
 });
 
-var server = app.listen(3000, function () {
+var server = app.listen(6000, function () {
     "use strict";
 
     var host = server.address().address,
