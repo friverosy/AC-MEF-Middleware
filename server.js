@@ -51,9 +51,10 @@ app.get('/employee/:RUT', function (req, res) {
                     if (err) {
                         console.error(err.message);
                     } else {
-                        console.log(new Date() + " GET /employee/" + req.params.RUT + " : Connection released");
+                        console.log(new Date() + " GET /employee/" + req.params.RUT);
                     }
-                });
+                }
+            );
         });
     });
 });
